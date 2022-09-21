@@ -1,0 +1,16 @@
+<div class="card">
+    <img class="card-img-top" src={{productMain.image}} alt="..." />
+    
+    <!-- Product details-->
+    <div class="card-body ">
+        <div class="text-center">
+            
+            <h5 class="card-title">{{productMain.name}} </h5>
+            <p class="card-text">{{productMain.description}}</p>
+            <p class="card-text fs-5">
+                <b>{{productMain.price | currency: 'CAD'}}</b>
+            </p>
+            <button class="btn btn-primary" (click)="handleAddToCart()">Add to Cart</button>
+        </div>
+    </div>
+</div>
