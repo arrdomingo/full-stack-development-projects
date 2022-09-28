@@ -23,5 +23,16 @@ Application should use json-server and persist the data in db.json.
   > type another `cmd` on the file path.
   > in cmd, type `ng serve --o`. This will open the app in the browser with the default localhost:4200
 
-- ### References
+- ### References of pizza app
   > [Setting up Angular projects](https://angular.io/guide/setup-local)
+  
+
+
+# weather-app
+This app is one of the exercises we had from full stack development bootcamp. This app fetch API from an external source. For more info, open the folder `exercise-angular-weather-app`
+
+- ## To run the weather app
+  > type another `cmd` on the file path.
+  > in cmd, type `ng serve --o`. This will open the app in the browser with the default localhost:4200
+
+  
