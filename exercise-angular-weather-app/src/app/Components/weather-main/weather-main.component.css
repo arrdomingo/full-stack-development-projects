@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+}
+
+h1 {
+    text-align: center;
+    margin: 50px;
+    font-weight: 1000;
+    font-size: 80px;
+
+    /* from googlefonts */
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Shizuru', cursive;
+}
+
+@keyframes wheelHueColor {
+    from, to { color: rgb(236,100,75); }
+    10%      { color: rgb(219,10,91); }
+    20%      { color: rgb(174,168,211); }
+    30%      { color: rgb(89,171,227); }
+    40%      { color: rgb(37,116,169); }
+    50%      { color: rgb(3,201,169); }
+    60%      { color: rgb(22,160,133); }
+    70%      { color: rgb(233,212,96); }
+    80%      { color: rgb(243,156,18); }
+    90%      { color: rgb(236,240,241); }
+}
+
+.card {
+    animation: wheelHueColor 10s infinite;
+}
+
+h1 {
+    animation: wheelHueColor 20s infinite;
+}
+
+#display-weather {
+    border: solid 20px #cccc;
+    border-radius: 20px;
+    padding: 30px ;
+    margin-top: 50px;
+
+    
+}
+.card-header {
+    text-align: center;
+}
+
+.card-body > .card-title:first-child {
+    padding-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}

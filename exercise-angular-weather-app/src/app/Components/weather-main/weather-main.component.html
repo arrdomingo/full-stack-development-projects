@@ -1,0 +1,28 @@
+<div class="container">
+    
+    <h1>Weather App</h1>
+    <form class="form-inline">
+        <input #cityname class="form-control mr-sm-2" type="text" placeholder="Type the city" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="button" (click)="GetWeatherData(cityname.value)">Search</button>
+    </form>
+    
+
+    <div class="row" >
+        <div class="col-sm-12" id="display-weather">
+            <div class="card" style="width: 18rem;">
+                <div class="card-header">{{cities?.name}} {{cities?.sys.country}}</div>
+                <div class="card-body">
+                    <h5 class="card-title">{{cities?.weather[0].description}}</h5>
+                    <h5 class="card-title">Temperature: {{cities?.main.temp}} °C</h5>
+                    <h5 class="card-title">Feels Like: {{cities?.main.feels_like}} °C</h5>
+                    <h5 class="card-title">Max: {{cities?.main.temp_max}} °C</h5>
+                    <h5 class="card-title">Min: {{cities?.main.temp_max}} °C</h5>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+
+</div>
+
