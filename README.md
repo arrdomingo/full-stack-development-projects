@@ -1,5 +1,5 @@
-# cgi-full-stack-development-bootcamp
-This is the repository of Full Stack Development bootcamp from CGI. This repo includes all the exercises, assignments, and the final capstone.
+# cgi-full-stack-development-projects
+This is the repository of all the projects from Full Stack Development bootcamp of CGI. This repo includes the exercises, assignments, and the final capstone that seems to be working.
 
 
 # pizza app
@@ -32,7 +32,8 @@ Application should use json-server and persist the data in db.json.
 This app is one of the exercises we had from full stack development bootcamp. This app fetch API from an external source. For more info, open the folder `exercise-angular-weather-app`
 
 - ## To run the weather app
-  > type another `cmd` on the file path.
+  > go to the file location <br/>
+  > type `cmd` on the file path. This will open up command prompt <br/>
   > in cmd, type `ng serve --o`. This will open the app in the browser with the default localhost:4200
 
   
