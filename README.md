@@ -45,17 +45,27 @@ This app is one of the exercises we had from full stack development bootcamp. Th
 
 # cgi capstone: Phone Market App
 
-A modern technological platform providing ease of business to customers
+A modern technological platform providing ease of business to customers. Customers can shop and monitor their orders from the comfort of their homes. Great tool making life easier especially in times of a pandemic.
 
 - ## Tech Stack
+  > Frontend Framework: `Angular` <br/>
+  > Backend: `RESTful Web Services` <br/>
+  > Databases: `MongoDB`, `SQL Server` <br/>
+  > Unit Test Framework: `NUnit` <br/>
+  > Version Control: `Git`, `GitLab` <br/>
+  > Languages: `C#`, `Typescript` <br/>
+  > Other Tools: `Consul Service Discovery`, `Ocelot API Gateway`, `JWT Token`
 
 - ## Application Architecture
 
-![app architecture](cgi application architecture.jpg)
+![app arhitecture](<cgi capstone application architecture.jpg>)  
+<!--- If the filename has spaces, wrap it with angle bracket <> --->
 
 - ## Lesson Learned
-
-- 
+  > Teamwork <br/>
+  > Time Management <br/>
+  > Organization <br/>
+  > Problem Solving
 
 
 
