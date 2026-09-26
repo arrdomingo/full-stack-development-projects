@@ -1,5 +1,5 @@
-# cgi-full-stack-development-projects
-This is the repository of all the projects from Full Stack Development bootcamp of CGI. This repo includes the exercises, assignments, and the final capstone that seems to be working.
+# full-stack-development-projects
+This is the repository of all the projects from Full Stack Development bootcamp of CGI. This repo includes the exercises, assignments, and the final capstone.
 
 <br/>
 <br/>
