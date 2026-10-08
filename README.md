@@ -39,6 +39,9 @@ This app is one of the exercises we had from full stack development bootcamp. Th
   > type `cmd` on the file path. This will open up command prompt <br/>
   > in cmd, type `ng serve --o`. This will open the app in the browser with the default localhost:4200
 
+- ## Images
+![weather app edmonton](img/weather-app01.jpg)
+![weather app toronto](img/weather-app02.jpg)
 
 <br/>
 <br/>
@@ -58,7 +61,7 @@ A modern technological platform providing ease of business to customers. Custome
 
 - ## Application Architecture
 
-![app arhitecture](<cgi capstone application architecture.jpg>)  
+![app arhitecture](<img/cgi capstone application architecture.jpg>)  
 <!--- If the filename has spaces, wrap it with angle bracket <> --->
 
 - ## Lesson Learned
